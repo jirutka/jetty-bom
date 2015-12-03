@@ -16,11 +16,13 @@ Add the following fragment to your pom.xml:
 ----
 <dependencyManagement>
     <dependencies>
-        <groupId>{group-id}</groupId>
-        <artifactId>{artifact-id}</artifactId>
-        <version>{version}</version>
-        <type>pom</type>
-        <scope>import</scope>
+        <dependency>
+            <groupId>{group-id}</groupId>
+            <artifactId>{artifact-id}</artifactId>
+            <version>{version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
     </dependencies>
 </dependencyManagement>
 ----
