@@ -77,7 +77,19 @@
                 except testing and examples.
             -->
 
-           <dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>apache-jsp</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>apache-jstl</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-alpn-client</artifactId>
                 <version>${jetty.version}</version>
@@ -116,6 +128,12 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-deploy</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-documentation</artifactId>
                 <version>${jetty.version}</version>
             </dependency>
 
@@ -300,6 +318,12 @@
             </dependency>
 
             <dependency>
+                <groupId>org.eclipse.jetty.gcloud</groupId>
+                <artifactId>jetty-gcloud-session-manager</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.eclipse.jetty.http2</groupId>
                 <artifactId>http2-client</artifactId>
                 <version>${jetty.version}</version>
@@ -326,6 +350,36 @@
             <dependency>
                 <groupId>org.eclipse.jetty.http2</groupId>
                 <artifactId>http2-server</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty.osgi</groupId>
+                <artifactId>jetty-osgi-alpn</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty.osgi</groupId>
+                <artifactId>jetty-osgi-boot-jsp</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty.osgi</groupId>
+                <artifactId>jetty-osgi-boot-warurl</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty.osgi</groupId>
+                <artifactId>jetty-osgi-boot</artifactId>
+                <version>${jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty.osgi</groupId>
+                <artifactId>jetty-osgi-httpservice</artifactId>
                 <version>${jetty.version}</version>
             </dependency>
 
