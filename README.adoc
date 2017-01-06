@@ -1,7 +1,7 @@
 = Jetty BOM
 :group-id: cz.jirutka.maven
 :artifact-id: jetty-bom
-:version: 9.2.19.v20160908
+:version: 9.2.20.v20161216
 :mvn-badge-uri: https://maven-badges.herokuapp.com/maven-central/{group-id}/{artifact-id}
 :veye-badge-base-uri: https://www.versioneye.com/user/projects
 
